@@ -1,0 +1,38 @@
+.elementor-slider .elementor-slider-item .featured-image {
+    position: relative;
+    margin-bottom: 15px !important;
+}
+
+.elementor-slider .elementor-slider-item .featured-image .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 0 0 3px 3px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.9)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#99000000", GradientType=0);
+}
+
+.elementor-slider .elementor-slider-item .featured-image .caption a {
+    color: #fff;
+}
+
+.elementor-slider .elementor-slider-item .post-item {
+    padding: 60px;
+}
+
+.elementor-slider .elementor-slider-item.slick-center .post-item {
+    padding: 0 !important;
+}
+
+.elementor-slider .slick-list.draggable {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.elementor-slider.slick-slider>.slick-prev::before,
+.elementor-slider.slick-slider>.slick-next::before {
+    background: #fff;
+    border-radius: 50%;
+}
