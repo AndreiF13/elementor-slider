@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Elementor Slider
  * Description: Create Slider with Elementor Page Builder based on pages.
- * Plugin URI:  https://webdesignwordpress.eu/elementor-slider/
+ * Plugin URI:  https://github.com/andreif13/elementor-slider/
  * Version:     1.0.0
  * Author:      AndreiF13
  * Author URI:  https://webdesignwordpress.eu/
