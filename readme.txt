@@ -29,7 +29,7 @@ Create Slider with Elementor Page Builder based on pages.
 
 == Frequently Asked Questions ==
 
-You'll find answers to many of your questions on (https://webdesignwordpress.eu/elementor-slider/).
+You'll find answers to many of your questions on (https://github.com/andreif13/elementor-slider/).
 
 == Screenshots ==
 

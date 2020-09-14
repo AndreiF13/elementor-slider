@@ -1,0 +1,144 @@
+# Copyright (C) 2020 elementor-slider
+# This file is distributed under the same license as the elementor-slider package.
+msgid ""
+msgstr ""
+"Project-Id-Version: elementor-slider\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Andrei F. <andrei@webdesignwordpress.eu>\n"
+"Last-Translator: Andrei F. <andrei@webdesignwordpress.eu>\n"
+"Report-Msgid-Bugs-To: https://github.com/andreif13/elementor-slider/issues/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1: Plugin name 2: Elementor
+#: elementor-slider.php:174
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: elementor-slider.php:175, elementor-slider.php:199, elementor-slider.php:224, elementor-slider.php:240, widgets/slider-widget.php:38
+msgid "Elementor Slider"
+msgstr ""
+
+#: elementor-slider.php:176, elementor-slider.php:200
+msgid "Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: elementor-slider.php:198, elementor-slider.php:223
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: elementor-slider.php:225
+msgid "PHP"
+msgstr ""
+
+#: widgets/slider-widget.php:90
+msgid "Content"
+msgstr ""
+
+#: widgets/slider-widget.php:112
+msgid "Select Pages for Slides"
+msgstr ""
+
+#: widgets/slider-widget.php:125
+msgid "Slider Options"
+msgstr ""
+
+#: widgets/slider-widget.php:133, widgets/slider-widget.php:228
+msgid "Navigation"
+msgstr ""
+
+#: widgets/slider-widget.php:137
+msgid "Arrows and Dots"
+msgstr ""
+
+#: widgets/slider-widget.php:138, widgets/slider-widget.php:239
+msgid "Arrows"
+msgstr ""
+
+#: widgets/slider-widget.php:139, widgets/slider-widget.php:285
+msgid "Dots"
+msgstr ""
+
+#: widgets/slider-widget.php:140, widgets/slider-widget.php:213
+msgid "None"
+msgstr ""
+
+#: widgets/slider-widget.php:148
+msgid "Pause on Hover"
+msgstr ""
+
+#: widgets/slider-widget.php:157
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/slider-widget.php:166
+msgid "Autoplay Speed"
+msgstr ""
+
+#: widgets/slider-widget.php:178
+msgid "Infinite Loop"
+msgstr ""
+
+#: widgets/slider-widget.php:187
+msgid "Transition"
+msgstr ""
+
+#: widgets/slider-widget.php:191
+msgid "Slide"
+msgstr ""
+
+#: widgets/slider-widget.php:192
+msgid "Fade"
+msgstr ""
+
+#: widgets/slider-widget.php:200
+msgid "Transition Speed (ms)"
+msgstr ""
+
+#: widgets/slider-widget.php:209
+msgid "Content Animation"
+msgstr ""
+
+#: widgets/slider-widget.php:214
+msgid "Down"
+msgstr ""
+
+#: widgets/slider-widget.php:215
+msgid "Up"
+msgstr ""
+
+#: widgets/slider-widget.php:216
+msgid "Right"
+msgstr ""
+
+#: widgets/slider-widget.php:217
+msgid "Left"
+msgstr ""
+
+#: widgets/slider-widget.php:218
+msgid "Zoom"
+msgstr ""
+
+#: widgets/slider-widget.php:251
+msgid "Arrows Size"
+msgstr ""
+
+#: widgets/slider-widget.php:271
+msgid "Arrows Color"
+msgstr ""
+
+#: widgets/slider-widget.php:297
+msgid "Dots Size"
+msgstr ""
+
+#: widgets/slider-widget.php:317
+msgid "Dots Color"
+msgstr ""
