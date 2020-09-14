@@ -1,4 +1,4 @@
-=== Elementor Slider ===
+=== Slider for Elementor ===
 Contributors: andreif13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -17,14 +17,14 @@ Create Slider with Elementor Page Builder based on pages.
 === From within WordPress ===
 
 1. Visit 'Plugins > Add New'
-2. Search for 'Elementor Slider '
-3. Activate Elementor Slider from your Plugins page.
-4. Edit a page with Elementor and add Elementor Slider element.
+2. Search for 'Slider for Elementor '
+3. Activate Slider for Elementor from your Plugins page.
+4. Edit a page with Elementor and add Slider for Elementor element.
 
 === Manually ===
 
 1. Upload the `elementor-slider` folder to the `/wp-content/plugins/` directory
-2. Activate the Elementor Slider plugin through the 'Plugins' menu in WordPress
+2. Activate the Slider for Elementor plugin through the 'Plugins' menu in WordPress
 3. Go to "after activation" below.
 
 == Frequently Asked Questions ==

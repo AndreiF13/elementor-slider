@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Slider Element for Elementor
+ * Plugin Name: Slider for Elementor
  * Description: Create Slider with Elementor Page Builder based on pages.
  * Plugin URI:  https://github.com/andreif13/elementor-slider/
  * Version:     1.0.0
