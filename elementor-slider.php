@@ -3,7 +3,7 @@
  * Plugin Name: Slider for Elementor
  * Description: Create Slider with Elementor Page Builder based on pages.
  * Plugin URI:  https://github.com/andreif13/elementor-slider/
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      AndreiF13
  * Author URI:  https://webdesignwordpress.eu/
  * Text Domain: elementor-slider
@@ -247,7 +247,16 @@ final class Elementor_Slider {
    *
    */
   public function register_frontend_scripts() {
-    wp_register_script( 'elementor-slider', plugin_dir_url( __FILE__ ) . 'assets/js/app.js', array( 'jquery' ), self::VERSION );
+	// Register swiper library
+	wp_register_script( 
+		'swiper', 
+		'https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js', 
+		array(), 
+		'8.3.1', 
+		true 
+	);
+	// Register swiper custom function
+    wp_register_script( 'elementor-slider', plugin_dir_url( __FILE__ ) . 'assets/js/app.js', array( 'elementor-frontend', 'swiper' ), self::VERSION, true );
   }
 
   /**
@@ -282,11 +291,7 @@ final class Elementor_Slider {
 	 * Prints the Elementor Page content.
 	 */
 	public static function get_content( $id = 0 ) {
-		if ( class_exists( '\ElementorPro\Plugin' ) ) {
-			echo do_shortcode( '[elementor-template id="' . $id . '"]' );
-		} else {
-			echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $id );
-		}
+		echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $id );
 	}
 
 }

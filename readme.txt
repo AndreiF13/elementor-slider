@@ -2,8 +2,8 @@
 Contributors: andreif13
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Tags: slide, carousel, slider, elementor, element
-Tested up to: 5.5.1
+Tags: slide, carousel, slider, elementor, element, swiper
+Tested up to: 6.0.1
 Requires PHP: 7.0
 
 Create Slider with Elementor Page Builder based on pages.
@@ -37,3 +37,7 @@ You'll find answers to many of your questions on (https://github.com/andreif13/e
 
 = 1.0.0 =
 * First release.
+
+= 1.1.0 =
+* Switched slick slider with swiper
+* Added templates
